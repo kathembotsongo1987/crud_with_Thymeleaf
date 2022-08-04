@@ -2,6 +2,7 @@ package com.example.crud_with_userinterface.model;
 
 import javax.persistence.*;
 
+@SuppressWarnings("ALL")
 @Entity
 @Table(name = "employees_table")
 public class Employee {
